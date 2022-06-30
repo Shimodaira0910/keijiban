@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<!---PHP乱入箇所-->
+
 <?php
       mb_internal_encoding("utf8");
       $pdo = new PDO("mysql:dbname=lesson01;host=localhost;","root","");
@@ -22,7 +22,6 @@
             <img src="4eachblog_logo.jpg">
         </a>
 
-     <!--ヘッダーの部分-->
         <ul class="menu">
             <li>トップ</li>
             <li>プロフィール</li>
@@ -38,7 +37,6 @@
         <h1>プログラミングに役立つ掲示板</h1>
 
      <div class="left">
-     <!--掲示板の入力フォーム-->
         <form method="post" action="insert.php">
            <h4>入力フォーム</h4>
 
@@ -66,7 +64,6 @@
         </form>
          
 
-      <!--記事-->
       <?php
       
       while($row = $stmt -> fetch()){
@@ -84,7 +81,6 @@
 
      </div>
 
-    <!--掲示板入力フォームの右側-->
      <div class="right">
             <h2>人気の記事</h2>
               <ul>
