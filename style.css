@@ -1,0 +1,140 @@
+/*メニューの部分*/
+.menu{
+    background-color: black;
+    height: 40px;
+}
+
+.menu li{
+    font-size: 12px;
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color:white;
+}
+
+/*左*/
+
+.left{
+    float: left;
+    width: 70%;
+    margin-right: 50px;
+}
+
+/*プログラミングに役立つ掲示板*/
+
+main h1{
+    width: 900px;
+    border-left: 5px solid;
+    border-bottom: 3px solid;
+    padding-left: 10px;
+
+}
+
+/*↓掲示板中身*/
+form {
+    width: 915px;
+    height: 400px;
+    background-color: #f6f6f6;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+/*入力フォーム全体*/
+form h4{ 
+    border-left: 5px solid red;
+    padding-left: 10px;
+    margin-left: 20px;
+
+}
+
+/*ここから中身*/
+form div{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+/*ハンドルネーム、タイトル*/
+.handlename, .title {
+    padding-left: 50px; 
+}
+
+/*コメント*/
+.comments{
+    width: 400px;
+    height: 100px;
+}
+
+/*送信ボタン*/
+.button{
+    background-color: grey;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    color: white;
+    padding: 5px;
+}
+
+/*記事*/
+.kiji {
+    width : 915px;
+    height: 200px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/*記事の中身*/
+.kiji h3{
+    border-bottom: 1px solid grey;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+ 
+.kiji .handlename{
+    margin-left: -50px;
+    margin-top: -5px;
+    padding-top: 80px;
+
+}
+
+/*↓ここからmainのrightコード*/
+
+.right{
+    float: left;
+    font-size: 15px;
+    width: 30%;
+    margin-top: -82px;
+    margin-left: -60px;
+}
+
+.right h2{
+    padding-top: 5px;
+    border-bottom: 2px dotted black;
+}
+
+.right ul{
+    list-style: none;
+}
+
+.right li{
+    font-family: MS Sans Serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    clear: left;
+}
+
+footer{
+    clear: left;
+    margin-top: 60px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
